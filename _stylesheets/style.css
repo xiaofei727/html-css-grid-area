@@ -1,0 +1,468 @@
+    .nav {
+        background-color: #F06018;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo {
+        grid-area: lg;
+    }
+    .list_link {
+        grid-area: ll;
+    }
+    #search {
+        grid-area: sr;
+    }
+    #search .body {
+        display: flex;
+        align-items: center;
+    }
+    #search .body img {
+        margin-right: 5px;
+    }
+    #search input[type=text] {
+        padding: 6px;
+        /* margin-top: 8px; */
+        font-size: 17px;
+        border: none;
+        background-color: #F6AC88;
+        border-radius: 5px;
+        outline: none;
+    }
+    .img_link {
+        grid-area: il;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .img_link img{
+        width: 20px;
+    }
+    
+    .intro  img {
+        width: 100%;
+        height: 100%;
+    }
+    #whatsnew {
+        grid-area: wn;
+    }
+    
+    #blog {
+        grid-area: bg;
+    }
+    
+    #bestsellers {
+        grid-area: bs;
+    }
+    
+    #megasale {
+        grid-area: ms;
+    }
+    
+    #yourwords {
+        grid-area: yw;
+    }
+    
+    .sidebar {
+        background-color: #191970;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #categories {
+        grid-area: cg;
+    }
+    
+    #produce {
+        grid-area: pe;
+    }
+    
+    #groceries {
+        grid-area: gc;
+    }
+    
+    #frozenfood {
+        grid-area: ff;
+    }
+    
+    #healthbeauty {
+        grid-area: hb;
+    }
+    
+    #organicitems {
+        grid-area: oi;
+    }
+    
+    #housefurniture {
+        grid-area: hf;
+    }
+    
+    #prayeritems {
+        grid-area: pi;
+    }
+    
+    #kitchenitems {
+        grid-area: ki;
+    }
+    
+    #fashion {
+        grid-area: fn;
+    }
+    
+    .content img {
+        width: 100%;
+        height: 100%;
+    }
+    #whatsnewlabel {
+        grid-area: nl;
+    }
+    
+    #whatsnew1 {
+        grid-area: n1;
+    }
+    
+    #whatsnew2 {
+        grid-area: n2;
+    }
+    
+    #whatsnew3 {
+        grid-area: n3;
+    }
+    
+    #megasalelabel {
+        grid-area: ml;
+    }
+    
+    #megasale1 {
+        grid-area: m1;
+    }
+    
+    #megasale2 {
+        grid-area: m2;
+    }
+    
+    #megasale3 {
+        grid-area: m3;
+    }
+    .shopstore {
+        background-color: #FACFB9;
+    }
+    .shopstore img {
+        width: 100%;
+        height: 100%;
+    }
+    #shopstorelabel {
+        grid-area: sl;
+    }
+    
+    #shopstore1 {
+        grid-area: s1;
+    }
+    
+    #shopstore2 {
+        grid-area: s2;
+    }
+    
+    #shopstore3 {
+        grid-area: s3;
+    }
+    
+    #shopstore4 {
+        grid-area: s4;
+    }
+    
+    #shopstore5 {
+        grid-area: s5;
+    }
+    
+    #map {
+        grid-area: mp;
+    }
+    #map img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #usefullinkstitle {
+        grid-area: lt;
+    }
+    
+    #usefullink1 {
+        grid-area: l1;
+    }
+    
+    #usefullink2 {
+        grid-area: l2;
+    }
+    
+    #followustitle {
+        grid-area: ut;
+    }
+    
+    #facebook {
+        grid-area: fb;
+    }
+    
+    #twitter {
+        grid-area: tt;
+    }
+    
+    #instagram {
+        grid-area: ig;
+    }
+    
+    #subscribe {
+        grid-area: ss;
+    }
+    
+    #subscribecontainer1 {
+        grid-area: c1;
+    }
+    
+    #subscribecontainer2 {
+        grid-area: c2;
+    }
+    
+    #contactustitle {
+        grid-area: ct;
+    }
+    
+    #addIcon {
+        grid-area: ai;
+    }
+    
+    #address1 {
+        grid-area: a1;
+    }
+    
+    #telIcon {
+        grid-area: ti;
+    }
+    
+    #tel1 {
+        grid-area: t1;
+    }
+    
+    #emailIcon {
+        grid-area: ei;
+    }
+    
+    #email1 {
+        grid-area: e1;
+    }
+    
+    #copyright {
+        grid-area: fcr;
+        text-align: center;
+    }
+
+    .wrapper > div {
+        padding: 1%;
+    }
+
+    .wrapper a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wrapper ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    /* Footer css */
+    footer {
+        background: #47478c;
+        color: white;
+        padding-left: 30px;
+        padding-right: 10px;
+        /* grid-gap: 15px; */
+        padding-top: 10px;
+    }
+
+    footer ul, footer li {
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+
+
+    li h4 {
+        margin-right: 30px;
+        padding-bottom: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    footer .whiteline {
+        border-bottom: solid 2px white;
+        margin-right: 30px;
+    }
+
+    footer .redline {
+        border-top: solid 2px red;
+        width: 47%;
+        z-index: 1;
+        margin-top: -2px;
+        margin-right: 30px;
+    }
+
+    #usefullinkstitle, #usefullink2 {
+        border-right: 1px solid white;
+    }
+
+    #usefullinkstitle {
+        border-right: 1px solid white;
+        
+    }
+
+    #followustitle, #facebook, #subscribe {
+        padding-left: 30px;
+    }
+
+    #followustitle, #instagram, #subscribe {
+        border-right: 1px solid white;
+    }
+
+    #contactustitle, #addIcon, #telIcon, #emailIcon {
+        padding-left: 30px;
+    }
+
+    #subscribe li {
+        margin-bottom: 10px;
+    }
+    
+    #subscribecontainer1 input {
+        background: #a1a0c3;
+        padding: 5px 10px;
+        width: calc(100% - 50px);
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 1; /* Firefox */
+      }
+
+    #subscribecontainer2 input {
+        color: black;
+        background: white;
+        border-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #subscribecontainer2 input:hover {
+        background: #f5f6f6;
+        border-color: #f5f6f6;
+    }
+
+    /* Media query */
+
+    @media (min-width: 1300px) {
+        .container {
+            max-width: 1240px;
+            margin: 0px auto;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(15, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            max-width: 100%;
+            grid-template-areas:
+            "lg lg ll ll ll ll ll ll ll ll ll sr sr sr il"
+            "wn wn wn bs bs bs bs bs bs ms ms ms ms ms ms" 
+            "wn wn wn bs bs bs bs bs bs ms ms ms ms ms ms" 
+            "wn wn wn bs bs bs bs bs bs yw yw yw yw yw yw" 
+            "bg bg bg bs bs bs bs bs bs yw yw yw yw yw yw" 
+            "bg bg bg bs bs bs bs bs bs yw yw yw yw yw yw" 
+            "cg cg cg nl nl nl nl nl nl nl nl nl nl nl nl" 
+            "pe pe pe n1 n1 n1 n1 n2 n2 n2 n2 n3 n3 n3 n3" 
+            "gc gc gc n1 n1 n1 n1 n2 n2 n2 n2 n3 n3 n3 n3" 
+            "ff ff ff n1 n1 n1 n1 n2 n2 n2 n2 n3 n3 n3 n3" 
+            "hb hb hb n1 n1 n1 n1 n2 n2 n2 n2 n3 n3 n3 n3" 
+            "oi oi oi ml ml ml ml ml ml ml ml ml ml ml ml" 
+            "hf hf hf m1 m1 m1 m1 m2 m2 m2 m2 m2 m3 m3 m3" 
+            "pi pi pi m1 m1 m1 m1 m2 m2 m2 m2 m2 m3 m3 m3" 
+            "ki ki ki m1 m1 m1 m1 m2 m2 m2 m2 m2 m3 m3 m3" 
+            "fn fn fn m1 m1 m1 m1 m2 m2 m2 m2 m2 m3 m3 m3"
+            "sl sl sl sl sl sl sl sl sl sl sl sl sl sl sl"
+            "s1 s1 s1 s2 s2 s2 s3 s3 s3 s4 s4 s4 s5 s5 s5"
+            "mp mp mp mp mp mp mp mp mp mp mp mp mp mp mp"
+
+        }
+        footer {
+            text-decoration: none;
+            display: grid;
+            /* grid-template-columns: repeat(15, 1fr); */
+            grid-auto-rows: minmax(50px, auto);
+            max-width: 100%;
+            grid-template-areas: 
+                "lt lt lt lt lt lt ut ut ut ut ut ut ct ct ct"
+                "l1 l1 l1 l2 l2 l2 fb fb tt tt ig ig ai a1 a1"
+                "l1 l1 l1 l2 l2 l2 ss ss ss ss ss ss . a1 a1"
+                "l1 l1 l1 l2 l2 l2 ss ss ss ss ss ss ti t1 t1"
+                "l1 l1 l1 l2 l2 l2 ss ss ss ss ss ss ei e1 e1"
+                "fcr fcr fcr fcr fcr fcr fcr fcr fcr fcr fcr fcr fcr fcr fcr";
+        }
+    }
+    @media screen and (max-width: 1199px) and (min-width: 900px) {
+        .container {
+            max-width: 784px;
+            margin: 0px auto;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            max-width: 100%;
+            grid-template-areas: 
+            "wn wn wn bs bs bs bs ms ms ms ms" 
+            "wn wn wn bs bs bs bs ms ms ms ms"  
+            "bg bg bg bs bs bs bs yw yw yw yw" 
+            "bg bg bg bs bs bs bs yw yw yw yw"
+            "cg cg nl nl nl nl nl nl nl nl nl" 
+            "pe pe n1 n1 n1 n2 n2 n2 n3 n3 n3" 
+            "gc gc n1 n1 n1 n2 n2 n2 n3 n3 n3" 
+            "ff ff n1 n1 n1 n2 n2 n2 n3 n3 n3" 
+            "hb hb n1 n1 n1 n2 n2 n2 n3 n3 n3" 
+            "oi oi ml ml ml ml ml ml ml ml ml" 
+            "hf hf m1 m1 m1 m2 m2 m2 m3 m3 m3" 
+            "pi pi m1 m1 m1 m2 m2 m2 m3 m3 m3" 
+            "ki ki m1 m1 m1 m2 m2 m2 m3 m3 m3" 
+            "fn fn m1 m1 m1 m1 m2 m2 m3 m3 m3" 
+        }
+    }
+    @media screen and (max-width: 899px) and (min-width: 769px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            max-width: 100%;
+            grid-template-areas: 
+                "wn wn bs bs bs bs ms ms ms ms" 
+                "wn wn bs bs bs bs yw yw yw yw" 
+                "bg bg bs bs bs bs yw yw yw yw" 
+                "bg bg bs bs bs bs yw yw yw yw" 
+        }
+    }
+    @media screen and (max-width: 768px) and (min-width: 601px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            max-width: 100%;
+            grid-template-areas: 
+                "wn wn bs bs bs ms ms ms" 
+                "wn wn bs bs bs yw yw yw" 
+                "bg bg bs bs bs yw yw yw" 
+        }
+    }
